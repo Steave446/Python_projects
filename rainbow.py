@@ -1,0 +1,38 @@
+import time
+import os
+rainbow = ['red','orange','yellow','green','blue','purple']
+print(f"the rainbow is as follows:")
+time.sleep(1)
+print(rainbow[0])
+time.sleep(0.5)
+print(rainbow[1])
+time.sleep(0.5)
+print(rainbow[2])
+time.sleep(0.5)
+print(rainbow[3])
+time.sleep(0.5)
+print(rainbow[4])
+time.sleep(0.5)
+print(f"{rainbow[5]}\n")
+
+rainbow[5]='indigo'
+rainbow.append('violet')
+time.sleep(3)
+print(f"JK Idiot its 2022 the rainbow is actually:")
+time.sleep(1)
+print(rainbow[0])
+time.sleep(0.5)
+print(rainbow[1])
+time.sleep(0.5)
+print(rainbow[2])
+time.sleep(0.5)
+print(rainbow[3])
+time.sleep(0.5)
+print(rainbow[4])
+time.sleep(0.5)
+print(rainbow[5])
+time.sleep(0.5)
+print(f"{rainbow[6]}\n")
+
+time.sleep(1)
+print("God you're so stupid")
